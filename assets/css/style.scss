@@ -1,0 +1,9 @@
+// Override Chirpy font variables
+@import "jekyll-theme-chirpy";
+
+// Increase base font size
+$root-font-size: 18px !default;  // Default: 16px
+
+// Adjust heading sizes
+$h1-font-size: 2.5rem !default;  // Default: 2rem
+$h2-font-size: 2rem !default;
