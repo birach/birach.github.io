@@ -3,11 +3,12 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
+  url: "mailto:{{ site.social.email | split: '@' | first }}@{{ site.social.email | split: '@' | last }}"
   noblank: true # open link in current tab
 
 # - type: rss
